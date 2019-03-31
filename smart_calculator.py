@@ -1,14 +1,14 @@
 import Operations.algebra
 import Operations.sqroot
 import Text_Recognizing.text_recognizing
-import Text_Recognizing.algebra
-import Text_Recognizing.sqroot
 
 usrinput = ""
 txtrecog = [0, [], 0]  # [Question Kind] [Calculation Transformed] [Level]
 
+
 def recognizing():
     print()
+
 
 while True:
     usrinput = input(">: ")
